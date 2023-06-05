@@ -1,0 +1,26 @@
+[
+  {
+  "category": "Programación",
+  "description": "Preguntas relacionadas con programación, desarrollo de software y lenguajes de programación."
+  },
+  {
+  "category": "Música Rock",
+  "description": "Preguntas relacionadas con la música rock, bandas, artistas, albums y su historia."
+  },
+  {
+  "category": "Videojuegos",
+  "description": "Preguntas relacionadas con videojuegos, curiosidades sobre estos, personajes y la industria de los videojuegos en general."
+  },
+  {
+  "category": "Geografía",
+  "description": "Preguntas relacionadas con países, capitales, continentes y características geográficas"
+  },
+  {
+  "category": "Biología",
+  "description": "Preguntas relacionadas con el estudio de los seres vivos, sistemas biológicos y ecosistemas."
+  },
+  {
+  "category": "Matemáticas",
+  "description": "Preguntas relacionadas con teoría de números, álgebra, geometría, cálculo y otras ramas de las matemáticas."
+  }
+]
