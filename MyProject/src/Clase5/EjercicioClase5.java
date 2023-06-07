@@ -13,7 +13,7 @@ public class EjercicioClase5 {
     /*
     1) Calculadora de edad de perros:
 Pídele al usuario que ingrese la edad de su perro.
-Convierte esa edad a años de perro (se dice que 1 año humano equivale a 7 años de perro).
+Convierte esa edad a años de humano (se dice que 1 año humano equivale a 7 años de perro).
      */
 
     public static void calcularEdadPerro(){
@@ -98,16 +98,48 @@ Muestra la distancia en kilómetros al usuario.
 
     public static void main(String[] args) {
 
-        System.out.println("Ejercicio 1");
-        calcularEdadPerro();
-        System.out.println("Ejercicio 2");
-        convertirMillasAKilometros();
-        System.out.println("Ejercicio 3");
-        calcularDescuento();
-        System.out.println("Ejercicio 4");
-        calcularPropina();
-        System.out.println("Ejercicio 5");
-        adivinarNumero();
+
+        boolean fin = false;
+
+        while(!fin) {
+
+            System.out.println("¿Cuál ejercicio quieres ver? de 1 a 5, o escribe -1 para salir: ");
+            int ejercicio = sc.nextInt();
+
+
+            switch (ejercicio) {
+                case 1:
+                    System.out.println("Ejercicio 1");
+                    calcularEdadPerro();
+                    break;
+                case 2:
+                    System.out.println("Ejercicio 2");
+                    convertirMillasAKilometros();
+                    break;
+                case 3:
+                    System.out.println("Ejercicio 3");
+                    calcularDescuento();
+                    break;
+                case 4:
+                    System.out.println("Ejercicio 4");
+                    calcularPropina();
+                    break;
+                case 5:
+                    System.out.println("Ejercicio 5");
+                    adivinarNumero();
+                    break;
+                case -1:
+                    fin = true;
+                    System.out.println("Chao");
+                    break;
+                default:
+                    System.out.println("Ese ejercicio no existe");
+
+            }
+
+        }
+
+
 
     }
 
