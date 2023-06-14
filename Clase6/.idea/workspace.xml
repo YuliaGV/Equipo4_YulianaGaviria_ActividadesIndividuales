@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="57c9fc89-7175-446e-a110-5747e2efef9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Clase5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/Clase5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/out/production/Clase5/Clase5/Ejercicios.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/src/Clase5/Ejercicios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Ejercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Ejercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Ejercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Ejercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Ejercicio5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Ejercicio6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Ejercicio7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Ejercicio8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyProject/src/Clase7/Ejercicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad-06052023/VistaCategorias.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad-06052023/VistaPregunta.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad-06052023/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad-06052023/question.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/Funciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/src/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/src/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/src/Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/src/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/MyProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/out/production/MyProject/Clase5/Ejercicios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/out/production/MyProject/Clase6/Ejercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/out/production/MyProject/Clase6/Ejercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/out/production/MyProject/Clase6/Ejercicio3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/out/production/MyProject/Clase6/Ejercicio4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/out/production/MyProject/Clase6/Ejercicio5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/out/production/MyProject/Clase6/Ejercicio6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/out/production/MyProject/Clase6/Ejercicio7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/out/production/MyProject/Clase6/Ejercicio8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Clase5/Ejercicios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Clase6/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Clase6/Ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Clase6/Ejercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Clase6/Ejercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Clase6/Ejercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Clase6/Ejercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Clase6/Ejercicio7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Clase6/Ejercicio8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Clase7/Ejercicio.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +50,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2R7Y1XUiCTRPaBhx2sD4ycq1Fkt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Ejercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Clase6.Ejercicio4" />

@@ -5,46 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d80583-d768-4275-af96-830235a82bce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Clase5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/Clase5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/out/production/Clase5/Clase5/Ejercicios.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase5/src/Clase5/Ejercicios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/Clase6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/out/production/Clase6/Clase6/Ejercicio1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/out/production/Clase6/Clase6/Ejercicio2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/out/production/Clase6/Clase6/Ejercicio3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/out/production/Clase6/Clase6/Ejercicio4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/out/production/Clase6/Clase6/Ejercicio5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/out/production/Clase6/Clase6/Ejercicio6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/out/production/Clase6/Clase6/Ejercicio7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/out/production/Clase6/Clase6/Ejercicio8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/src/Clase6/Ejercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/src/Clase6/Ejercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/src/Clase6/Ejercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/src/Clase6/Ejercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/src/Clase6/Ejercicio5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/src/Clase6/Ejercicio6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/src/Clase6/Ejercicio7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase6/src/Clase6/Ejercicio8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyProject/src/Clase7/Ejercicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad-06052023/VistaCategorias.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad-06052023/VistaPregunta.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad-06052023/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad-06052023/question.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/Funciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/src/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/src/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/src/Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase8/Funciones/src/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +40,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Clase7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Clase7" />
