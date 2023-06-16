@@ -65,6 +65,9 @@ public class SearchUsersController {
         return "No encontrado";*/
 
         //Using Stream
+        if(!usersList.stream().anyMatch(n -> n.toLowerCase().contains(selectedUser.toLowerCase()))){
+            return "Usuario no existe";
+        }
 
         usersList = usersList.stream().filter(n -> !n.toLowerCase().contains(selectedUser.toLowerCase().replaceAll("[+-]", " ").trim())).toList();
         return "Eliminaste un usuario, la nueva lista es: "+ usersList.toString();
