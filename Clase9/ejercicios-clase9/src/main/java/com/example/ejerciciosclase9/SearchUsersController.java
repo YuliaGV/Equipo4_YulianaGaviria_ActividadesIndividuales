@@ -27,13 +27,17 @@ public class SearchUsersController {
     @GetMapping("/{name}")
     public String getUser(@PathVariable String name){
 
-        for(String user: usersList){
+        /*for(String user: usersList){
             if(user.toLowerCase().contains(name.toLowerCase().replaceAll("[+-]", " "))){
                 return user;
             }
         }
+        return "No encontrado"
+        */
 
-        return "No encontrado";
+        //Using stream
+        return usersList.stream().filter(n -> n.toLowerCase().contains(name.replaceAll("[+-]", " "))).findFirst().orElse("No encontrado");
+
     }
 
     @GetMapping("/add/{newUser}")
@@ -51,14 +55,19 @@ public class SearchUsersController {
     @GetMapping("/delete/{selectedUser}")
     public String deleteUser(@PathVariable String selectedUser){
 
-        for(String user: usersList){
-            if(user.toLowerCase().contains(selectedUser.toLowerCase().replaceAll("[+-]", " "))){
+       /* for(String user: usersList){
+            if(user.toLowerCase().contains(selectedUser.toLowerCase().replaceAll("[+-]", " ").trim())){
                 usersList.remove(user);
                 return "Eliminaste un usuario, la nueva lista es: "+ usersList.toString();
             }
         }
 
-        return "No encontrado";
+        return "No encontrado";*/
+
+        //Using Stream
+
+        usersList = usersList.stream().filter(n -> !n.toLowerCase().contains(selectedUser.toLowerCase().replaceAll("[+-]", " ").trim())).toList();
+        return "Eliminaste un usuario, la nueva lista es: "+ usersList.toString();
 
     }
 
