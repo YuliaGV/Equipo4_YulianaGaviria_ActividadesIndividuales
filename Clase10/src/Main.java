@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Ejercicio 2: ");
         Cuenta micuenta = new Cuenta("Yuliana", 1000 );
-        micuenta.ingresar(500);
+        micuenta.ingresar(-500);
         micuenta.retirar(3000);
         System.out.println(micuenta.mostrar());
 
