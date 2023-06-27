@@ -5,6 +5,7 @@ import com.example.ejerciciogestionusuarios.entities.Usuario;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
@@ -27,12 +28,40 @@ public class UsuarioController {
 
     @DeleteMapping("/usuarios/{id}")
     public void eliminarUsuario(@PathVariable String id){
+
         usuarios = usuarios.stream().filter(usuario -> !String.valueOf(usuario.getId()).equals(id)).toList();
 
-        /*Opción usando forEach
-        */
+        //Opción usando forEach
+        /*usuarios.forEach(usuario -> {
+            if (String.valueOf(usuario.getId()).equals(id)) {
+            usuarios.remove(usuario);
+            return;
+        }
+        });*/
 
 
     }
+
+
+    @PutMapping("/usuarios/{id}")
+    public void editarUsuario(@PathVariable String id, @RequestBody Usuario usuarioActualizado){
+
+        Optional<Usuario> usuarioOptional = usuarios.stream()
+                .filter(usuario -> String.valueOf(usuario.getId()).equals(id))
+                .findFirst();
+
+        if (usuarioOptional.isPresent()) {
+            Usuario usuario = usuarioOptional.get();
+
+            usuario.setNombre(usuarioActualizado.getNombre());
+            usuario.setApellido(usuarioActualizado.getApellido());
+            usuario.setTelefono(usuarioActualizado.getTelefono());
+            usuario.setEmail(usuarioActualizado.getEmail());
+
+        }
+    }
+
+
+
 
 }
