@@ -50,6 +50,7 @@ public class UsuarioController {
                 .filter(usuario -> String.valueOf(usuario.getId()).equals(id))
                 .findFirst();
 
+
         if (usuarioOptional.isPresent()) {
             Usuario usuario = usuarioOptional.get();
 
@@ -59,6 +60,22 @@ public class UsuarioController {
             usuario.setEmail(usuarioActualizado.getEmail());
 
         }
+
+
+        //Opción usando forEach
+        /*usuarios.forEach(usuario -> {
+            if (String.valueOf(usuario.getId()).equals(id)) {
+                usuario.setNombre(usuarioActualizado.getNombre());
+                usuario.setApellido(usuarioActualizado.getApellido());
+                usuario.setTelefono(usuarioActualizado.getTelefono());
+                usuario.setEmail(usuarioActualizado.getEmail());
+
+            }
+
+        });*/
+
+
+
     }
 
 
