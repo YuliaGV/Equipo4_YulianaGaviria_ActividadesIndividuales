@@ -27,7 +27,7 @@ public class Arquero extends Personaje{
         if(objetivo.getPuntosDeVida() == 0){
             System.out.println(getNombre() + " ataca a " +objetivo.getNombre()+" pero ese compa ya está muerto");
         }else{
-            int dañoOcasionado = getPuntosDeDaño(); //El daño ocasionado equivale a la cantidad de puntos de daño
+            int dañoOcasionado = getPuntosDeDaño() + getNivel(); //El daño ocasionado equivale a la cantidad de puntos de daño más un punto por cada nivel del personaje
             System.out.println(getNombre() + " ataca a " + objetivo.getNombre() +" y ocasiona "+dañoOcasionado+ " puntos de daño");
             objetivo.recibirDaño(dañoOcasionado);
         }
@@ -56,7 +56,7 @@ public class Arquero extends Personaje{
             System.out.println(getNombre() + " le lanza una flecha a " +objetivo.getNombre()+" pero ese compa ya está muerto");
         }else{
             int dañoOcasionado = getPuntosDeDaño() + getNivelPunteria()*3; //El daño ocasionado aumenta 3 puntos por cada nivel de punteria
-            System.out.println(getNombre() + " le lanza una flecha a" + objetivo.getNombre() +" y ocasiona "+dañoOcasionado+ " puntos de daño");
+            System.out.println(getNombre() + " le lanza una flecha a " + objetivo.getNombre() +" y ocasiona "+dañoOcasionado+ " puntos de daño");
             objetivo.recibirDaño(dañoOcasionado);
         }
 

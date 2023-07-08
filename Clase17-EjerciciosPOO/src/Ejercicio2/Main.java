@@ -16,12 +16,19 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Guerrero ivar = new Guerrero("Ivar", 2, 5, 2, true);
-        Arquero fulano = new Arquero("Fulano", 2, 5, 5);
+        Guerrero ivar = new Guerrero("Ivar Ragnarsson", 2, 5, 2, true);
+        Arquero homero = new Arquero("Homero Simpson", 2, 5, 5);
         Mago harry = new Mago("Harry Potter", 2, 5, 6);
 
-        fulano.atacar(harry);
-        harry.lanzarHechizo(fulano);
+        homero.atacar(harry);
+        harry.lanzarHechizo(homero);
+        homero.curarse();
+        homero.lanzarFecha(harry);
+        ivar.atacar(harry);
+        ivar.atacar(homero);
+
+
+
     }
 
 

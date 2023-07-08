@@ -72,7 +72,7 @@ public abstract class Personaje {
     public abstract void atacar(Personaje objetivo);
     public abstract void recibirDaño(int cantidadDaño);
 
-    public void curarse(int cantidadVida){
+    public void curarse(){
 
         if(getPocionesCuracion() == 0){
             System.out.println(getNombre() + " ya no tiene pociones de curación");
@@ -82,6 +82,7 @@ public abstract class Personaje {
             System.out.println(getNombre() + " ya tiene salud máxima");
         }else{
             setPuntosDeVida(getPuntosDeVida()+20);
+            System.out.println(getNombre() + " Tomó una poción de salud. Ahora tiene "+getPuntosDeVida()+" puntos de vida");
             setPocionesCuracion(getPocionesCuracion()-1);
         }
 

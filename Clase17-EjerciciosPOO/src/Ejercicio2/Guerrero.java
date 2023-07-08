@@ -44,7 +44,7 @@ public class Guerrero extends Personaje{
         if(objetivo.getPuntosDeVida() == 0){
             System.out.println(getNombre() + " ataca a " +objetivo.getNombre()+" pero ese compa ya está muerto");
         }else{
-            int dañoOcasionado = getPuntosDeDaño() + getFuerzaAtaque()*2; //Por cada punto de fuerza de ataque se incrementa en 2 puntos el daño generado
+            int dañoOcasionado = getPuntosDeDaño() + getFuerzaAtaque()*2 + getNivel(); //Por cada punto de fuerza de ataque se incrementa en 2 puntos el daño generado, más 1 punto por cada nivel
             System.out.println(getNombre() + " ataca a " + objetivo.getNombre() +" y ocasiona "+dañoOcasionado+ " puntos de daño");
             objetivo.recibirDaño(dañoOcasionado);
         }

@@ -30,7 +30,7 @@ public class Mago extends Personaje{
         if(objetivo.getPuntosDeVida() == 0){
             System.out.println(getNombre() + " ataca a " +objetivo.getNombre()+" pero ese compa ya está muerto");
         }else{
-            int dañoOcasionado = getPuntosDeDaño(); //El daño ocasionado equivale a la cantidad de puntos de daño
+            int dañoOcasionado = getPuntosDeDaño() + getNivel();; //El daño ocasionado equivale a la cantidad de puntos de daño, más un punto por cada nivel
             System.out.println(getNombre() + " ataca a " + objetivo.getNombre() +" y ocasiona "+dañoOcasionado+ " puntos de daño");
             objetivo.recibirDaño(dañoOcasionado);
         }
