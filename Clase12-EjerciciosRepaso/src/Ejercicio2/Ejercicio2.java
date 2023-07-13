@@ -20,8 +20,22 @@ public class Ejercicio2 {
         System.out.println("Coloca el precio del producto");
         int purchasePrice = sc.nextInt();
 
-        System.out.println("Coloca la cantidad de dinero que darás");
-        int clientMoney = sc.nextInt();
+        int clientMoney = 0;
+
+        while(true){
+
+
+            System.out.println("Coloca la cantidad de dinero que darás");
+            clientMoney = sc.nextInt();
+
+            if(clientMoney >= purchasePrice){
+                break;
+            }
+
+            System.out.println("No te alcanza el dinero");
+
+
+        }
 
         // Crear un HashMap para almacenar los billetes y monedas de Colombia
         Map<String, Integer> colombiaCurrency = new  LinkedHashMap<>();
