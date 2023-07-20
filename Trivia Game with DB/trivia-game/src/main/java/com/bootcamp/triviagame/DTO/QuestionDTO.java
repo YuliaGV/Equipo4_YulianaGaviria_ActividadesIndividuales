@@ -16,4 +16,7 @@ public class QuestionDTO {  //Esta es una especie de clase auxiliar que represen
 
 
 
+
+
+
 }

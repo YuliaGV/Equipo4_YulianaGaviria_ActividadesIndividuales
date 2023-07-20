@@ -22,7 +22,7 @@ public class OptionsRepository {
 
     public List<Option> getOptionsByQuestion(long id){
 
-        String jpql = "SELECT c FROM Option c WHERE c.questionId = :id";
+        String jpql = "SELECT c FROM Option c WHERE c.question.id = :id";
         Query query = entityManager.createQuery(jpql); //Creando la consulta
         query.setParameter("id", id);   //Estos son los parámetros de la consulta, en este caso solamente id
 
